@@ -1,0 +1,29 @@
+/* Adicionando CSS */
+/* Com seletor 'TAG' */
+h1{
+    color:darkblue;
+    font-size: 15px;
+}
+h2{
+    color:indigo;
+}
+p{
+    font-weight: bold;
+    font-size: small;
+}
+
+/* Adicionando CSS */
+/* Com seletor 'id' */
+/* id não pode ser compartilhado */
+#p2{
+    color:cornflowerblue;
+    font-weight: normal;
+}
+
+/* Adicionando CSS */
+/* com seletor  'class' */
+/* class pode ser compartilhado */
+.p-texto{
+    color:blue;
+    font-weight: 500;
+}
