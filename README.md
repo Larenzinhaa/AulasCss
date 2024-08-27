@@ -7,3 +7,4 @@
 - arquivo css de modo e cores
 - arquivo css animação
 - arquivo css animação com timming
+- arquivo css border, padding e margin
