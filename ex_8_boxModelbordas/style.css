@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+.boxmodel{
+    width: 200px;
+    height: 200px;
+    background-color: lavender;
+    padding: 30px 30px;
+    border: 10px dashed  grey;
+    border-left: 30px solid black;
+    border-right-style: double;
+    border-radius: 70px;
+
+    /* adicionando espaço */
+    margin: 50px 50px;
+}
