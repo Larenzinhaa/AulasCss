@@ -1,0 +1,57 @@
+/* Aula -> Position */
+
+.position{
+    width: 200px;
+    height: 500px;
+    background-color: lightpink;
+    border-bottom: 4px solid lightgrey;
+}
+
+/* static: flow do html; top, left, right e buttom NÃO alteram a posição */
+.static{
+    position: static;
+}
+
+/* relative (relativo a algo): flow do html; top, left, right e buttom ALTERAM a posição */ 
+.relative{
+    position: relative;
+    background-color: lightcoral;
+    top: 10px;
+    left:10px
+}
+
+/* absolute: posiciona em qualquer lugar, respeitando o local onde esta inserido */
+.absolute{
+    position: absolute;
+    background-color: lightsteelblue;
+    top: 0;
+    right: 0;
+}
+
+.mini-div{
+    width: 20px;
+    height: 20px;
+    border: 2px dotted black;
+    top: 0;
+    left: 0;
+}
+
+/* fixed: posiciona em qualquer lugar, respeitando o tamanho da tela em exibição*/
+.fixed{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: lightskyblue;
+    right: 50px;
+    bottom: 50px;
+}
+
+/* sticky: flow do html; e quando movimenta o scroll da tela, ele deixa fixado em determinado ponto*/
+.sticky{
+    width: 300px;
+    height: 50px;
+    background-color: deeppink;
+    position: sticky;
+    left:200px;
+    top: 0px;
+}
